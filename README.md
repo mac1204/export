@@ -18,7 +18,7 @@ This library converts list of Java Objects to specific export files. Conversion 
 
 ```
 <dependency>
-  <groupId>com.mac.export</groupId>
+	<groupId>com.mac.export</groupId>
 	<artifactId>export-library</artifactId>
 	<version>0.0.1</version>
 </dependency>
