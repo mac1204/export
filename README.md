@@ -54,7 +54,7 @@ export.getFileName();//Provides full path with filename.
 
 ```
 @HeaderNaming(value = CapitalizeCaseStrategy.class)
-public class OnlineOrderDTO {
+public class POJO {
   private String firstName;             //First Name
   private String lastName;              //Last Name
   @HeaderName(value = "Created Date")
