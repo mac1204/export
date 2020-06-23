@@ -29,7 +29,7 @@ public class PdfExportWriter<T> extends BaseExportWriter<T> implements ExportWri
 	public PdfExportWriter(String fileName) throws FileNotFoundException, DocumentException {
 		super();
 		if (document == null) {
-			this.fileName = directory.concat(".").concat(fileName);
+			this.fileName = directory.concat("/").concat(fileName);
 			document = new Document();
 			PdfWriter.getInstance(document, new FileOutputStream(this.fileName));
 			document.open();

@@ -33,7 +33,7 @@ public class ExcelExportWriter<T> extends BaseExportWriter<T> implements ExportW
 	public ExcelExportWriter(String fileName) throws FileNotFoundException, DocumentException {
 		super();
 		if (file == null) {
-			this.fileName = directory.concat(".").concat(fileName);
+			this.fileName = directory.concat("/").concat(fileName);
 			file = new File(this.fileName);
 			workbook = new HSSFWorkbook();
 			sheet = workbook.createSheet();
